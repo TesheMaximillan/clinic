@@ -2,7 +2,6 @@
 
 > In this project we create a database based on diagram.
 
-
 ## Requirments
 
 ![image](https://user-images.githubusercontent.com/51437483/172488630-def28a28-0d7a-432e-b192-150366f6e828.png)
