@@ -1,4 +1,4 @@
-# curriculum-databases-projects-template
+# Create a database based on diagram.
 
 > In this project we create a database based on diagram.
 
