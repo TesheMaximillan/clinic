@@ -17,6 +17,17 @@ CREATE TABLE medical_histories (
     FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
 
+-- Create an intermediate table for medical_histores and treatments called diagnosis
+
+CREATE TABLE diagnosis (
+    id                  INT,    
+    medical_history_id  INT,
+    treatment_id        INT,
+    PRIMARY KEY (id),
+    FOREIGN KEY (medical_history_id) REFERENCES medical_histores(id),
+    FOREIGN KEY (treatment_id) REFERENCES treatments(id),
+);
+
 CREATE TABLE treatments (
     id                  INT GENERATED ALWAYS IDENTITY,
     type                timestamp,
